@@ -10,14 +10,18 @@ public class EndSceneModel : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        // animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
-
+            animator.SetTrigger("1");
+        }
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            animator.SetTrigger("Happy");
         }
     }
 

@@ -220,7 +220,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 094c6166809aa47eb91b770ef314b590, type: 2}
+  m_Motion: {fileID: 7400000, guid: a571a7e9582f24ff2a87182d0554b857, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -418,7 +418,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ExitHoleHappy
-  m_Speed: 1
+  m_Speed: 0
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -430,7 +430,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 094c6166809aa47eb91b770ef314b590, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8718851567bcb4366b92e5ab315bcfb9, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
