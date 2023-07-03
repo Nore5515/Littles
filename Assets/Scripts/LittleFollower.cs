@@ -28,7 +28,7 @@ public class LittleFollower : MonoBehaviour
     {
         targetPosition = followTarget.transform.position;
         targetPosition.y = targetPosition.y - 0.35f;
-        targetPosition += 2 * GetDirectionToTarget(targetPosition);
+        targetPosition += GetDirectionToTarget(targetPosition);
     }
 
     Vector3 GetDirectionToTarget(Vector3 targetVector)
@@ -47,5 +47,10 @@ public class LittleFollower : MonoBehaviour
         // transform.DOPlay();
         // DOTween.Restart();
         // DOTween.To(() => this.transform.position, x => this.transform.position = x, targetPosition, 1);
+    }
+
+    public void SelfDestruct()
+    {
+        Destroy(this.gameObject);
     }
 }
